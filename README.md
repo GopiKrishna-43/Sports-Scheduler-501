@@ -28,15 +28,10 @@ Open the application in a web browser to access the user interface.
 
 ### Backend
 1. Install required dependencies
-npm install
+-npm install
 
-pgsql
-Copy code
 2. Start the server
-node server.js
-
-markdown
-Copy code
+-node server.js
 
 ## Applications
 - Schools and colleges
