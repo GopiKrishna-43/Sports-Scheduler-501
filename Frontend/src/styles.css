@@ -1,0 +1,202 @@
+/* ---------- Global Reset ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- Base page style ---------- */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* ---------- Navigation bar ---------- */
+nav {
+  background: #2c3e50;
+  padding: 12px 24px;
+}
+nav a {
+  color: #ecf0f1;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Page container ---------- */
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* ---------- Buttons ---------- */
+button,
+.btn {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover,
+.btn:hover {
+  background: #2980b9;
+}
+
+/* ---------- Card style ---------- */
+.card {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ---------- Forms ---------- */
+input, select, textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2c3e50;
+  color: #ecf0f1;
+  margin-top: 40px;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;       /* vertical center */
+  min-height: 100vh;
+  background: #f5f7fa;
+  font-family: Arial, sans-serif;
+  color: #2c3e50;
+}
+
+/* Optional: to limit content width */
+.page-wrapper {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;        /* center text inside the wrapper */
+}
+
+/* keep other styles (buttons, nav, etc.) as before */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #2c3e50;
+}
+
+/* ---------- Top navigation ---------- */
+nav {
+  position: fixed;         /* stay at top even when scrolling */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #2c3e50;
+  padding: 12px 24px;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Main page wrapper ---------- */
+.main-content {
+  /* push content below the fixed navbar */
+  margin-top: 70px;       /* adjust to navbar height */
+  min-height: calc(100vh - 70px);
+
+  /* center the inner content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------- Inner box for forms or text ---------- */
+.page-wrapper {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Buttons & Inputs */
+button,
+.btn {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover,
+.btn:hover {
+  background: #2980b9;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+/* Page heading at the very top */
+.page-heading {
+  background-color: #2c3e50;   /* dark top bar */
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  position: sticky;  /* stays at the top when scrolling */
+  top: 0;
+  z-index: 1000;
+}
+
+/* You can keep your existing hero and calendar styles */
